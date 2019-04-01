@@ -1,0 +1,117 @@
+
+
+ul.nav 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+li.nav 
+{
+    float: left;
+}
+
+li a.nav 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a.nav:hover 
+{
+    background-color: #333;
+}
+
+li a.active 
+{
+    background-color: #842727;
+    color: white;
+
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body
+{
+	background-color: lightgray;
+}
+
+a img:hover
+{
+	width: 250px;
+}
+
+th
+{
+	padding: 10px;
+}
+
+td.syl
+{
+	text-align: center;
+}
+
+h3
+{
+	text-decoration: underline;
+}
+
+table, td, th
+{
+	border: 2px solid #842727;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+
+
+
+
+
+table.home
+{
+	border: 0px;
+}
+
+tr.home
+{
+	border: 0px;
+}
+
+td.home
+{
+	border: 0px;
+}
+
+table.bio
+{
+	border: 0px;
+}
+
+tr.bio
+{
+	border: 0px;
+}
+
+td.bio
+{
+	border: 0px;
+}
+
+iframe
+{
+	width: 800px;
+	height: 500px;
+}
